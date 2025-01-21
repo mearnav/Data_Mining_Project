@@ -1,8 +1,8 @@
-# Data_Mining_Project
 ## Game Recommendation System on Steam 
 
-# OVERVIEW
-dhvkshdkvj
+# Overview
+A game recommendation system created for steam, a well-known
+
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
