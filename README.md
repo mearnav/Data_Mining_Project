@@ -20,6 +20,9 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
 * app_id, user_id, title, rating, postivie_ratio, user_reviews, price, discount, platform, release_date.
 * Key features from modeling: positive_ratio, id_recommendation, user_review.
 
+## Data Preprocessing
+1. 
+
 ## Technologies Used
 - Python
 - OpenCV
