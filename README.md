@@ -1,10 +1,7 @@
 # Data_Mining_Project
 ## Game Recommendation System on Steam 
 
-Develop an intelligent system to monitor and analyze workplace posture in real-time using deep learning techniques. 
-- Technologies Used: Python, OpenCV, TensorFlow, Keras, PyTorch, NumPy, Pandas
-- Integrated real-time video processing to monitor and analyze posture continuously using surveillance footage
-- Developed and optimized convolutional neural networks (CNNs) for detecting and classifying various workplace postures.
+# OVERVIEW
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
