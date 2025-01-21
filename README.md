@@ -1,19 +1,11 @@
 ## Game Recommendation System on Steam 
 
 # Overview
-A game recommendation system created for steam, a well-known
+A game recommendation system created for steam, a well-known video game distribution platform, is presented in this project. The system seeks to improve user engagement and happiness by offering precise and tailored game suggestions by utilizing both content-based filtering and collaborative filtering.
 
 
-## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Technologies Used](#technologies-used)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Model Architecture](#model-architecture)
-6. [Data Collection and Preprocessing](#data-collection-and-preprocessing)
-7. [Training the Model](#training-the-model)
-8. [Real-Time Video Processing](#real-time-video-processing)
-9. [Results](#results)
+## Features
+
 
 ## Project Overview
 Develop an intelligent system to monitor and analyze workplace posture in real-time using deep learning techniques.
