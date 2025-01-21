@@ -15,8 +15,8 @@ A game recommendation system created for steam, a well-known video game distribu
   Uses visual aids like boxplots, scatter plots, and heatmaps to examine the connections between attributes like pricing, user rating and positive ratios.
 
 
-## Project Overview
-Develop an intelligent system to monitor and analyze workplace posture in real-time using deep learning techniques.
+## Dataset
+Preprocessed two sizable datasets that were taken from Steam's public repository and combined them into a single, smaller dataset that has the following characterstics: 
 
 ## Technologies Used
 - Python
