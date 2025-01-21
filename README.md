@@ -1,6 +1,6 @@
-## Game Recommendation System on Steam 
+# Game Recommendation System on Steam 
 
-# Overview
+## Overview
 A game recommendation system created for steam, a well-known video game distribution platform, is presented in this project. The system seeks to improve user engagement and happiness by offering precise and tailored game suggestions by utilizing both content-based filtering and collaborative filtering.
 
 
