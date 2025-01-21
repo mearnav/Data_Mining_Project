@@ -5,7 +5,8 @@ A game recommendation system created for steam, a well-known video game distribu
 
 
 ## Features
-* ## Content-Based Filtering: 
+* ## Content-Based Filtering:
+  Uses methods like Cosine Similarity and TF-IDF vectorization to analyze game metadata (titles, description and genres) and suggest games that are related to useer's interest.
 
 ## Project Overview
 Develop an intelligent system to monitor and analyze workplace posture in real-time using deep learning techniques.
