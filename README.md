@@ -11,6 +11,9 @@ A game recommendation system created for steam, a well-known video game distribu
 * ## Collaborative Filtering:
   Makes game recommendation by applying the SVD algorithm to matrix factorization and user-item interaction patterns.
 
+* ## Visualization Tools:
+  Uses visual aids like boxplots, scatter plots, and heatmaps to examine the connections between attributes like pricing, user rating and positive ratios.
+
 
 ## Project Overview
 Develop an intelligent system to monitor and analyze workplace posture in real-time using deep learning techniques.
