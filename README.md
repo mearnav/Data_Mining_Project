@@ -5,7 +5,7 @@ A game recommendation system created for steam, a well-known video game distribu
 
 
 ## Features
-
+* Content-Based Filtering: 
 
 ## Project Overview
 Develop an intelligent system to monitor and analyze workplace posture in real-time using deep learning techniques.
