@@ -21,7 +21,7 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
 * Key features from modeling: positive_ratio, id_recommendation, user_review.
 
 ## Data Preprocessing
-1. 
+  ## 1. Handling Missing Values:  
 
 ## Technologies Used
 - Python
