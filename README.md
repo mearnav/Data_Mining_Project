@@ -71,6 +71,7 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
 - Pandas
 - Keras
 
+
 ## How to Run
   ## 1. Clone repository:
     git clone https://github.com/mearnav/Data_Mining_Project
@@ -79,6 +80,7 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
     pip install -r requirements.txt
   ## 3. Execute the script:
     python main.py
+
 
 ## Results and Visualizations
   ## 1. Content-Based Filtering:
@@ -93,6 +95,7 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
    * ## Heatmaps:
    Visualized user-item interaction scores in collaborative filtering.
 
+
 ## Limitations
   ## 1. Scalability:
   Real-time applicability for large datasets is limited by memory-intensive similarity calculations in both methods.
@@ -100,6 +103,7 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
   It is necessary to regularly retrain for relevance as user preferences change.
   ## 3. Query Handling:
   Errors such as typos or unclear inputs cam impact the accuracy of recommendations.
+
 
 ## Future Improvements
   ## 1. Enhanced Personalization:
@@ -109,6 +113,7 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
   * Create a dynamic recommendation engine that will be updated when users engage with the system.
   ## 3. Scalability:
   * To manage big datasets effictively, use distributed computing or approximate closest neighbor methods.
+
 
 ## References
   * Bogers, T. and Van den Bosch, A., 2009. Collaborative and content-based filtering for item recommendation on social bookmarking websites. Submitted to CIKM, 9.
