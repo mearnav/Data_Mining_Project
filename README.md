@@ -84,3 +84,18 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
    Explored pricing trends relative to user reviews and ratings.
    * ## Heatmaps:
    Visualized user-item interaction scores in collaborative filtering.
+
+## Limitations
+  ## 1. Scalability:
+  Real-time applicability for large datasets is limited by memory-intensive similarity calculations in both methods.
+  ## 2. Dynamic Preferences:
+  It is necessary to regularly retrain for relevance as user preferences change.
+  ## 3. Query Handling:
+  Errors such as typos or unclear inputs cam impact the accuracy of recommendations.
+
+## Future Improvements
+  ## 1. Enhanced Personalization:
+  * Incorporate user reviews and sentiment analysis for richer insights.
+  * Explore additional game metadata like developers, genres and gameplay mechanics.
+  ## 2. Real-Time Recommendations:
+  * 
