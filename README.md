@@ -98,4 +98,6 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
   * Incorporate user reviews and sentiment analysis for richer insights.
   * Explore additional game metadata like developers, genres and gameplay mechanics.
   ## 2. Real-Time Recommendations:
+  * Create a dynamic recommendation engine that will be updated when users engage with the system.
+  ## 3. Scalability:
   * 
