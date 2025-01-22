@@ -49,31 +49,24 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
         * "Nioh: The Complete Edition"
       The average precision achieved for content-based recommendations was 0.78.
   ## 2. Collaborative Filtering:
+  * # SVD (Singular Value Decomposition):
+    Used in the user-item interaction matrix for matrix factorization in order to forecast missing ratings.
+  * # Evaluation Metric:
+    Root Mean Square Error (RMSE) was used for validation, and the average test score was 0.329.
 
 ## Technologies Used
 - Python
-- OpenCV
-- TensorFlow
-- Keras
-- PyTorch
+- Surprise Library
+- Scikit-learn 
+- Matplotlib/Seaborn
+- Google Colab
 - NumPy
 - Pandas
 
-## Installation
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/meCeltic/Machine-learning-Projects/tree/master/Sitting-Posture-Recognition
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd Sitting-Posture-Recognition
-    ```
-3. Create a virtual environment and activate it:
-    ```sh
-    python -m venv venv
-    source venv/bin/activate   # On Windows: venv\Scripts\activate
-    ```
-4. Install the required packages.
+## How to Run
+  ## 1. Clone repository:
+    git clone https://github.com/mearnav/
+
 
 ## Usage
 1. **Data Preparation**: Place your annotated data in the `data` directory.
