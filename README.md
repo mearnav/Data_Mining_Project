@@ -99,4 +99,12 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
   ## 2. Real-Time Recommendations:
   * Create a dynamic recommendation engine that will be updated when users engage with the system.
   ## 3. Scalability:
-  * 
+  * To manage big datasets effictively, use distributed computing or approximate closest neighbor methods.
+
+## References
+  * Bogers, T. and Van den Bosch, A., 2009. Collaborative and content-based filtering for item recommendation on social bookmarking websites. Submitted to CIKM, 9.
+  * Aggarwal, P., Tomar, V. and Kathuria, A., 2017. Comparing content based and collaborative filtering in recommender systems. International Journal of New Technology and Research, 3(4), p.263309.
+  * Javed, U., Shaukat, K., Hameed, I.A., Iqbal, F., Alam, T.M. and Luo, S., 2021. A review of content-based and context-based recommendation systems. international Journal of Emerging Technologies in Learning       (iJET), 16(3), pp.274-306.
+  * Fu, L. and Ma, X., 2021. An improved recommendation method based on content filtering and collaborative filtering. Complexity, 2021(1), p.5589285.
+  * Claypool, M., Gokhale, A., Miranda, T., Murnikoc, P., Netes, D. and Sartin, M., 1999, August. Combining content-based and collaborative filters in an online newspaper. In Proceedings of ACM SIGIR workshop on recommender systems (Vol. 60, pp. 1853-1870).
+  * Kim, B.D. and Kim, S.O., 2001. A new recommender system to combine content-based and collaborative filtering systems. Journal of Database Marketing & Customer Strategy Management, 8, pp.244-252.
