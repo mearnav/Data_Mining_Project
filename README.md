@@ -23,6 +23,15 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
 ## Data Preprocessing
   ## 1. Handling Missing Values:
   Removed entries with incomplete or invalid data (e.g., missing ratings or titles).
+
+  ## 2. Feature Encoding:
+  Categorical attributes such as "platform" and "is_recommended" were label-encoded for compatibility with numerical operations.
+
+  ## 3. Feature Scaling:
+  Applied Min-Max normalization to columns like "price" and "positive_ratio" for uniform scaling.
+
+  ## 4. Text Processing:
+  Normalized game titles using TF-IDF, addressing punctuation and case sensitivity.
       
 
 ## Technologies Used
