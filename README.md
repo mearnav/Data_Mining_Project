@@ -39,14 +39,13 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
     Extracted textual features from game titles and descriptions.
   * ## Cosine Similarity:
     Used to compute the closeness between games and recommend similar titles.
-
       ## Example:
       A query for "Grand Theft Auto IV" returned:
-        * "Grand Theft Auto 2"
-        * "Grand Theft Auto V"
-        * "Grand Theft Auto: Episodes from Liberty City"
-        * "Nioh 2: The Complete Edition"
-        * "Nioh: The Complete Edition"
+      * "Grand Theft Auto 2"
+      * "Grand Theft Auto V"
+      * "Grand Theft Auto: Episodes from Liberty City"
+      * "Nioh 2: The Complete Edition"
+      * "Nioh: The Complete Edition"
       The average precision achieved for content-based recommendations was 0.78.
   ## 2. Collaborative Filtering:
   * ## SVD (Singular Value Decomposition):
