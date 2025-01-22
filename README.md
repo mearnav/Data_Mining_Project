@@ -35,12 +35,12 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
 
 ## Methodology
   ## 1. Content-Based Filtering:
-  * # TF-IDF Vectorization:
+  * ## TF-IDF Vectorization:
     Extracted textual features from game titles and descriptions.
-  * # Cosine Similarity:
+  * ## Cosine Similarity:
     Used to compute the closeness between games and recommend similar titles.
 
-      # Example:
+      ## Example:
       A query for "Grand Theft Auto IV" returned:
         * "Grand Theft Auto 2"
         * "Grand Theft Auto V"
@@ -49,9 +49,9 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
         * "Nioh: The Complete Edition"
       The average precision achieved for content-based recommendations was 0.78.
   ## 2. Collaborative Filtering:
-  * # SVD (Singular Value Decomposition):
+  * ## SVD (Singular Value Decomposition):
     Used in the user-item interaction matrix for matrix factorization in order to forecast missing ratings.
-  * # Evaluation Metric:
+  * ## Evaluation Metric:
     Root Mean Square Error (RMSE) was used for validation, and the average test score was 0.329.
 
 ## Technologies Used
@@ -78,9 +78,9 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
   ## 2. Collaborative Filtering:
   Demonstrated robust performance in uncovering user preferences and recommending games within subgenres of interest.
   ## 3. Visualization Highlights:
-   ## * Boxplots:
+   * ## Boxplots:
    Showed the correlation between "positive_ratio" and game ratings.
-   ## * Scatter Plots:
+   * ## Scatter Plots:
    Explored pricing trends relative to user reviews and ratings.
-   ## * Heatmaps:
+   * ## Heatmaps:
    Visualized user-item interaction scores in collaborative filtering.
