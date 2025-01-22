@@ -62,6 +62,7 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
 - Google Colab
 - NumPy
 - Pandas
+- Keras
 
 ## How to Run
   ## 1. Clone repository:
