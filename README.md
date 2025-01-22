@@ -32,7 +32,22 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
 
   ## 4. Text Processing:
   Normalized game titles using TF-IDF, addressing punctuation and case sensitivity.
-      
+
+## Methodology
+  ## 1. Content-Based Filtering:
+  * # TF-IDF Vectorization:
+    Extracted textual features from game titles and descriptions.
+  * # Cosine Similarity:
+    Used to compute the closeness between games and recommend similar titles.
+
+      # Example:
+      A query for "Grand Theft Auto IV" returned:
+        * "Grand Theft Auto 2"
+        * "Grand Theft Auto V"
+        * "Grand Theft Auto: Episodes from Liberty City"
+        * "Nioh 2: The Complete Edition"
+        * "Nioh: The Complete Edition"
+      The average precision achieved for content-based recommendations was 0.78.
 
 ## Technologies Used
 - Python
