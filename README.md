@@ -20,6 +20,7 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
 * app_id, user_id, title, rating, postivie_ratio, user_reviews, price, discount, platform, release_date.
 * Key features from modeling: positive_ratio, id_recommendation, user_review.
 
+
 ## Data Preprocessing
   ## 1. Handling Missing Values:
   Removed entries with incomplete or invalid data (e.g., missing ratings or titles).
@@ -33,12 +34,16 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
   ## 4. Text Processing:
   Normalized game titles using TF-IDF, addressing punctuation and case sensitivity.
 
+
 ## Methodology
   ## 1. Content-Based Filtering:
+  
   * ## TF-IDF Vectorization:
     Extracted textual features from game titles and descriptions.
+    
   * ## Cosine Similarity:
     Used to compute the closeness between games and recommend similar titles.
+    
       ## Example:
       A query for "Grand Theft Auto IV" returned:
       * "Grand Theft Auto 2"
@@ -48,9 +53,11 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
       * "Nioh: The Complete Edition"
         
       The average precision achieved for content-based recommendations was 0.78.
+    
   ## 2. Collaborative Filtering:
   * ## SVD (Singular Value Decomposition):
     Used in the user-item interaction matrix for matrix factorization in order to forecast missing ratings.
+    
   * ## Evaluation Metric:
     Root Mean Square Error (RMSE) was used for validation, and the average test score was 0.329.
 
