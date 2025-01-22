@@ -46,6 +46,7 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
       * "Grand Theft Auto: Episodes from Liberty City"
       * "Nioh 2: The Complete Edition"
       * "Nioh: The Complete Edition"
+        
       The average precision achieved for content-based recommendations was 0.78.
   ## 2. Collaborative Filtering:
   * ## SVD (Singular Value Decomposition):
