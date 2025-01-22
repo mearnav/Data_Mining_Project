@@ -65,37 +65,22 @@ Preprocessed two sizable datasets that were taken from Steam's public repository
 
 ## How to Run
   ## 1. Clone repository:
-    git clone https://github.com/mearnav/
+    git clone https://github.com/mearnav/Data_Mining_Project
+    cd Data_Mining_Project
+  ## 2. Install dependencies:
+    pip install -r requirements.txt
+  ## 3. Execute the script:
+    python main.py
 
-
-## Usage
-1. **Data Preparation**: Place your annotated data in the `data` directory.
-2. **Training the Model**:
-    ```sh
-    model.py
-    ```
-3. **Real-Time Monitoring**:
-    ```sh
-    posture_realtime.py
-    ```
-4. The system will start capturing video from your camera and display real-time posture analysis.
-
-## Model Architecture
-The CNN model used for posture detection is designed with the following layers:
-- Convolutional layers
-- MaxPooling layers
-- Fully connected layers
-- Softmax activation for output classification
-
-## Data Collection and Preprocessing
-- Data was collected from workplace surveillance footage.
-- Images were annotated with posture labels.
-- Preprocessing steps include resizing, normalization, and splitting into training/validation/test sets.
-
-Training was performed on annotated images with various postures.
-
-## Real-Time Video Processing
-OpenCV was used to capture real-time video feed and overlay posture classification results using the trained CNN model.
-
-## Results
-The model achieved an accuracy of 90% on the test dataset. Below are some visualizations and example outputs from the real-time monitoring system.
+## Results and Visualizations
+  ## 1. Content-Based Filtering:
+  Successfully provided accurate and thematic recommendations for diverse game genres.
+  ## 2. Collaborative Filtering:
+  Demonstrated robust performance in uncovering user preferences and recommending games within subgenres of interest.
+  ## 3. Visualization Highlights:
+   ## * Boxplots:
+   Showed the correlation between "positive_ratio" and game ratings.
+   ## * Scatter Plots:
+   Explored pricing trends relative to user reviews and ratings.
+   ## * Heatmaps:
+   Visualized user-item interaction scores in collaborative filtering.
